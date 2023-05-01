@@ -1,0 +1,50 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "54M44T63ST.ca.lavoixdelest.editions",
+          "54M44T63ST.ca.latribune.editions",
+          "54M44T63ST.ca.ledroit.editions",
+          "54M44T63ST.ca.lenouvelliste.editions",
+          "54M44T63ST.com.lequotidien.editions",
+          "54M44T63ST.com.lesoleil.editions"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/abonnement/*",
+            "comment": "Matches any URL with a path that starts with /abonnement/."
+          },
+          {
+            "/": "/paiement/*",
+            "exclude": true,
+            "comment": "Matches any URL with a path that starts with /paiement/ and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/mon-compte/*",
+            "exclude": true,
+            "comment": "Matches any URL with a path that starts with /mon-compte/ and instructs the system not to open it as a universal link."
+          },
+          {
+            "/": "/ab/*"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "54M44T63ST.ca.lavoixdelest.editions",
+      "54M44T63ST.ca.latribune.editions",
+      "54M44T63ST.ca.ledroit.editions",
+      "54M44T63ST.ca.lenouvelliste.editions",
+      "54M44T63ST.com.lequotidien.editions",
+      "54M44T63ST.com.lesoleil.editions"
+    ]
+  }
+}
